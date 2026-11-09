@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-<title>Pac-Man Neon</title>
+<title>Pac-Man do G.abriel </title>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -12,21 +12,9 @@
   <div id="hud">
     <div class="box"><span class="lbl">PONTOS</span><span id="score">000000</span></div>
     <div class="box c"><span class="lbl">RECORDE</span><span id="hi">000000</span><span class="lbl" id="info">MÉDIO · NÍVEL 1</span></div>
-    <div class="box r"><span class="lbl">VIDAS</span><div id="lives"><i class="life"></i><i class="life"></i><i class="life"></i></div></div>
+    <div class="box r"><span class="lbl">VIDAS</span><div id="lives"></div></div>
   </div>
-  <div id="stage">
-    <canvas id="game"></canvas>
-    <div id="msg">
-      <h1>PAC-MAN</h1>
-      <p>ESCOLHA A DIFICULDADE</p>
-      <div class="btns">
-        <button class="btn e" data-d="easy">1 · FÁCIL</button>
-        <button class="btn m" data-d="medium">2 · MÉDIO</button>
-        <button class="btn h" data-d="hard">3 · DIFÍCIL</button>
-      </div>
-      <p>SETAS OU WASD · P PAUSA · M SOM<br>CELULAR: DESLIZE O DEDO</p>
-    </div>
-  </div>
+  <div id="stage"><canvas id="game"></canvas><div id="msg"></div></div>
 </div>
 <script src="script.js"></script>
 </body>
